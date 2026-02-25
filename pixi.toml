@@ -1,0 +1,17 @@
+[workspace]
+authors = ["Navpreet Kaur <navpreetkaur427@gmail.com>"]
+channels = ["conda-forge"]
+name = "BINF-5507_Materilas"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.14.3,<3.15"
+pip = ">=26.0.1,<27"
+matplotlib = ">=3.10.8,<4"
+scikit-learn = ">=1.8.0,<2"
+seaborn = ">=0.13.2,<0.14"
+ipykernel = ">=7.2.0,<8"
+
